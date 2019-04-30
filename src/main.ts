@@ -87,18 +87,18 @@ async function deleteItem() {
 
 // deleteItem();
 
-// createCourse({
-//   tags: [],
-//   name: 'Enumiya Inca',
-//   category: 'web',
-//   author: 'Sundari Mam',
-//   isPublished: true,
-//   price: 35
-// });
+createCourse({
+  tags: ['beach'],
+  name: 'Constanta',
+  category: 'web',
+  author: 'Mangalia',
+  isPublished: true,
+  price: 40
+});
 
 async function showCourses() {
   const result = await Course.find();
   console.log(result);
 }
 
-showCourses();
+// showCourses();
